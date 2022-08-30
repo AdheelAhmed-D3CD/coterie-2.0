@@ -1,0 +1,102 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body
+  {
+      position: absolute;
+  max-width: max-content;
+  left: 30px;
+  
+  background: #FFFFFF;
+  box-shadow: 0px 4px 87px -2px rgba(0, 0, 0, 0.25);
+  border-radius: 35px;
+  }
+  .logo img
+  {
+      position: absolute;
+      margin-top: 1px;
+      margin-left: 10px;
+      width: 300px;
+      height: 85px;
+  }
+  .container
+ {
+    width: 100%;
+    position: static;
+    
+ }
+ .box
+ {
+    max-width: 150px;
+    padding: 10px;
+    border: 3px solid chocolate;
+    margin: 10px auto;
+ }
+ .box img
+ {
+    max-width: 100px;
+    height: 100px;
+    display: block;
+    object-fit: cover;
+    padding: 5px;
+ }
+ .box .heading,
+ .box .text 
+ {
+    width: 80%;
+    padding: 0 5px;
+    min-width: 100px;
+ }
+ h2
+ {
+    text-transform: uppercase;
+ }
+ p
+ {
+    margin: 10px 0;
+ }
+ @media(min-width: 500px)
+ {
+    .container
+    {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .box
+    {
+        max-width: 500px;
+    }
+    .box img
+    {
+        float: left;   
+    }
+    .box .heading,
+    .box .text
+    {
+        float: right;
+        width: 50%;
+    }
+ }
+  .button 
+  {
+    margin-right: 100px;
+    width: 100px;
+    float: right;
+  }
+  .button .btn btn-outline-danger
+  {
+    
+    width: 200px;
+    height: 50px;
+  }
+  .button button
+  {
+    font-size: 20px;
+  }
+  .btn-label {position: relative;left: -12px;display: inline-block;padding: 6px 12px;background: rgba(0,0,0,0.15);border-radius: 3px 0 0 3px;}
+  .btn-labeled {padding-top: 0;padding-bottom: 0;}
+  .btn { margin-bottom:10px; }
